@@ -9,11 +9,7 @@
 
 ##### ソースコードの色分け表示
 
-```jsx
-const Hello = () => {
-  return <div>Hello!</div>
-}
-```
+[examples - syntax-highlight](examples/syntax-highlight.md)
 
 ##### Markdown中でvueのコードを使う
 
