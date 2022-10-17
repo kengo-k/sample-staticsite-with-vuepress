@@ -35,4 +35,32 @@ const Hello = () => {
 1 + 2 = {{ 1 + 2 }}です
 
 ##### Markdown中でVueコンポーネントを使う
+
+.vuepress/components内にVueコンポーネントを配置することで参照できるようになる。
+
+以下はHelloComponentを定義した例。
+```vue
+<template>
+  <div>HELLO, Vue Component!</div>
+</template>
+
+<script>
+export default {
+  data() {
+    return {
+    }
+  }
+}
+</script>
+
+```
+
+Markdown内で下記のようにコンポーネントを利用できるようになる。
+
+```jsx
+<HelloComponent/>
+```
+
+実行結果:
+
 <HelloComponent/>
