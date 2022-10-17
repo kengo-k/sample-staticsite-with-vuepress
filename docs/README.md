@@ -11,6 +11,9 @@
   <li v-for="i in 3">value: {{i}}</li>
 </ul>
 
+##### Markdown中でVueコンポーネントを使う
+<HelloComponent/>
+
 ##### ソースコードの色分け表示
 
 ```jsx
