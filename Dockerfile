@@ -8,5 +8,6 @@ RUN \
   su-exec; \
   chmod +x /tmp/docker-entrypoint.sh;
 
+USER node
 WORKDIR /home/node
 ENTRYPOINT [ "/tmp/docker-entrypoint.sh" ]
