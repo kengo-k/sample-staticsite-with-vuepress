@@ -64,3 +64,25 @@ Markdown内で下記のようにコンポーネントを利用できるように
 実行結果:
 
 <HelloComponent/>
+
+##### メタ情報へのアクセス
+
+マニュアルを確認するといくつかの事前定義された変数があるが以下の二つが利用する可能性がありそう
+
+`$page`変数
+
+<ul>
+  <li v-for="k in Object.keys($page)">
+  {{k}}: {{$page[k]}}
+  </li>
+</ul>
+
+`$site`変数
+
+<ul>
+  <li v-for="k in Object.keys($site)">
+  {{k}}: {{$site[k]}}
+  </li>
+</ul>
+
+$site.pagesでページ全体を処理して一覧を生成することができそう
