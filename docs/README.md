@@ -6,8 +6,9 @@
 - layoutの適用
 - ページングの実装ができるか
 - test
+- サイドバーを追加する
 
-##### ソースコードの色分け表示
+## ソースコードの色分け表示
 
 [examples - syntax-highlight](examples/syntax-highlight.md)
 
