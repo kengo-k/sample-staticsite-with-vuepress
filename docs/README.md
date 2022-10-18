@@ -1,4 +1,4 @@
-# TODO
+# 実現したいことリスト
 
 - typescriptの導入
 - tailwindcssの導入
