@@ -3,7 +3,6 @@
 - typescriptの導入
 - tailwindcssの導入
 - vuetifyなどのライブラリを利用する
-- 複数ページによるサイト構成（ページ遷移)
 - layoutの適用
 - ページングの実装ができるか
 
